@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <title>legal solution</title>
+    <!-- google font css -->
+    <style>
+        .font-EB{
+            font-family: 'EB Garamond', serif;
+        }
+        .font-poppins{
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+    <!-- custom color -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                'justice-primary': '#B68C5A',
+                'black-one': '#414040',
+                'black-two': '#707070',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+
+<body>
+    <!-- header start -->
+    <header class="container mx-auto">
+        <!-- nav start -->
+        <div class="navbar mb-14 lg:pt-12 font-poppins">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <!-- for mobile button -->
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-normal text-base text-black-two">
+                        <li><a>Home</a></li> 
+                        <li><a>Services</a></li> 
+                        <li><a>Cases</a></li> 
+                        <li><a>Blog</a></li> 
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <a class="btn btn-ghost text-xl">
+                    <img src="images/logo2.png" class="w-3/4 md:w-full lg:w-full" alt="logo">
+                </a>
+            </div>
+            <!-- for other devices -->
+            <div class="navbar-center hidden lg:flex text-sm breadcrumbs">
+                <ul class="px-1 font-normal text-base text-black-two">
+                  <li><a>Home</a></li> 
+                  <li><a>Services</a></li> 
+                  <li><a>Cases</a></li> 
+                  <li><a>Blog</a></li> 
+                  <li><a>Contact Us</a></li>
+                </ul>
+              </div>
+            <div class="navbar-end">
+                <a class="btn px-2 md:px-7 lg:px-7 bg-justice-primary text-white font-light md:font-semibold lg:font-semibold text-sm md:text-lg lg:text-lg">Free Consultation</a>
+            </div>
+        </div>
+        <!-- nav end -->
+
+        <!-- banner start -->
+        <div class="container mx-auto">
+            <div class="hero py-24 rounded-lg" style="background-image: url(images/banner.png);">
+                <div class="hero-overlay opacity-40 bg-gradient-to-r from-[#111] to-[#111111]"></div>
+                <div class="hero-content text-center text-white">
+                  <div class="max-w-md md:max-w-[80%] lg:max-w-[60%]">
+                    <h1 class="mb-5 text-4xl md:text-6xl lg:text-7xl font-extrabold font-EB">We Provide Effective Legal Solutions</h1>
+                    <p class="mb-5 text-poppins text-[#E7E7E7] font-normal text-base">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour..</p>
+                    <form class="w-full flex flex-col md:flex-row lg:flex-row">
+                        <input class="mb-5 lg:mb-0 md:mb-0 flex-1 mr-6 rounded-lg outline-0 py-5 pl-5  font-poppins font-normal text-base text-[#A0A0A0]" type="email" placeholder="Search your services" name="" id="">
+                        <button class="btn btn-lg self-center bg-justice-primary text-white text-poppins text-xl font-semibold border-justice-primary px-12">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <!-- banner end -->
+    </header>
+    <!-- header end -->
+
+
+    <!-- main section start -->
+    <main></main>
+    <!-- main section start -->
+
+
+    <!-- footer start -->
+    <footer></footer>
+    <!-- footer end -->
+</body>
+
+</html>
